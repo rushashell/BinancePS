@@ -9,7 +9,7 @@ Set-Location "C:\Git\BinancePS"
 Import-Module .\BinancePS
 
 # Set context to Binance API first
-Set-BinanceApiContext -ApiKey "aabbcc" -SecretKey = "ddeeff"
+Set-BinanceApiContext -ApiKey "aabbcc" -SecretKey "ddeeff"
 
 # Now request information
 $Coins = Get-BinanceCoinsAvailable -WithBalanceOnly
