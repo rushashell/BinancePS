@@ -4,7 +4,7 @@
   Modulescript for exposing Binance API functionality through Powershell Cmdlets.
 
  .Description
-  This module gives users the possibility to request information from the Binance API through 
+  This module gives users possibility to request information from the Binance API through 
   simple to use Powershell Cmdlets.
 
 #>
@@ -23,6 +23,8 @@ $ProgressPreference = "SilentlyContinue"
 $SharedTypesPath = Join-Path -Path $PSScriptRoot -ChildPath "Shared"
 $FunctionsPath = Join-Path -Path $PSScriptRoot -ChildPath "Functions"
 $PrivateFunctionsPath = Join-Path -Path $PSScriptRoot -ChildPath "Private"
+$AssetsPath = Join-Path -Path $PSScriptRoot -ChildPath "Assets"
+$LibPath = Join-Path -Path $PSScriptRoot -ChildPath "Lib"
 
 $Imports = Get-ChildItem -Path $SharedTypesPath | Where-Object { $_.Name -like "*.ps1" }
 ForEach($Import in $Imports)

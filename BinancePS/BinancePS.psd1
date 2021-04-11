@@ -69,7 +69,8 @@
   # Functions to export from this module
   FunctionsToExport = @(
     "Set-BinanceApiContext",
-    "Get-BinanceCoinsAvailable"
+    "Get-BinanceCoinsAvailable",
+    "Get-BinanceSymbolPrice"
   )
   
   # Cmdlets to export from this module
