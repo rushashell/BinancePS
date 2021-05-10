@@ -70,7 +70,18 @@
   FunctionsToExport = @(
     "Set-BinanceApiContext",
     "Get-BinanceCoinsAvailable",
-    "Get-BinanceSymbolPrice"
+    "Get-BinanceSymbolPrice",
+
+    "Get-BinanceFuturesAccountBalance",
+    "Get-BinanceFuturesAccountInfo",
+    "Get-BinanceFuturesPosition",
+    "Get-BinanceFuturesTradeList",
+    "Get-BinanceFuturesIncomeHistory",
+    "Get-BinanceFuturesSymbolCommissionRate",
+    "New-BinanceFuturesOrder",
+    "Set-BinanceFuturesInitialLeverage",
+    "Set-BinanceFuturesInitialMarginType",
+    "Update-BinanceFuturesPositionMargin"
   )
   
   # Cmdlets to export from this module

@@ -15,6 +15,7 @@
 
   $Context = [PSCustomObject] @{
     RootApiUrl = $BinanceRootApiUrl;
+    FuturesRootApiUrl = $BinanceFuturesRootApiUrl;
     ApiKey = $ApiKey;
     SecretKey = $SecretKey;
     DefaultRecvWindow = $DefaultRecvWindow;
